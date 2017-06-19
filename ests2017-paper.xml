@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.oxygenxml.com/docbook/xml/5.0/rng/dbsvg.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<article xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.0">
+    <title>Scholary Intervention in Automated Collation Software</title>
+    <note><remark>Paper is currently divided into four sections. The section titles are provisory.</remark></note>
+    <section>
+        <title>Introduction</title>
+        <note><remark></remark></note>
+        <para>
+        </para>
+    </section>
+    <section>
+        <title>Ordered</title>
+        <para></para>
+    </section>
+    <section>
+        <title>Hierarchy</title>
+        <para></para>
+   </section>
+    <section>
+        <title>Unordered Hierarchy</title>
+        <para></para>
+    </section>
+    <section>
+        <title>
+            Conclusion
+        </title>
+        <para></para>
+    </section>
+    
+</article>
