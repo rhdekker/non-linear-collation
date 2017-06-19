@@ -14,7 +14,16 @@
     </section>
     <section>
         <title>Ordered</title>
-        <para></para>
+        <para>Example 1.1:</para>
+        <para>Transcription witness A: Helaas, Hij, Shiriar,</para>
+        <para>Smart tokenizer:</para>
+        <para>&lt;witness id="a">&lt;w>Helaas&lt;/w>&lt;w>, &lt;/w>&lt;w>Hij&lt;/w>&lt;w>,
+            &lt;/w>&lt;w>Shiriar&lt;/w>&lt;w>,&lt;/w>&lt;/witness></para>
+        <para>Transcription witness B: Helaas hij, Shir&lt;add
+            place="supralinear">i&lt;/add>ar,</para>
+        <para>Smart tokenizer:</para>
+        <para>&lt;witness id="b">&lt;w>Helaas &lt;/w>&lt;w>hij&lt;/w>&lt;w>,
+            &lt;/w>&lt;subst>&lt;del>&lt;w>Shirar&lt;/w>&lt;/del>&lt;add>&lt;w>Shiriar&lt;/w>&lt;/add>&lt;/subst>&lt;w>,&lt;/w>&lt;/witness></para>
     </section>
     <section>
         <title>Hierarchy</title>
