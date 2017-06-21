@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.oxygenxml.com/docbook/xml/5.0/rng/dbsvg.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<article xmlns="http://docbook.org/ns/docbook"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
     version="5.0">
-    <title>Scholary Intervention in Automated Collation Software</title>
-    <note><remark>Paper is currently divided into four sections. The section titles are provisory.</remark></note>
+    <info>
+        <title>Scholary Intervention in Automated Collation Software</title>
+        <author>
+            <personname>Elli Bleeker</personname>
+            <affiliation>
+                <orgname>Huygens Institute for the History of the Netherlands</orgname>
+            </affiliation>
+            <affiliation>
+                <orgname>Centre for Manuscript Genetics - University of Antwerp</orgname>
+            </affiliation>
+        </author>
+        <author>
+            <personname>Ronald Haentjens Dekker</personname>
+            <affiliation>
+                <orgname>Huygens Institute for the History of the Netherlands</orgname>
+            </affiliation>
+        </author>
+    </info>
+    <note>
+        <remark>Paper is currently divided into four sections. The section titles are
+            provisory.</remark>
+    </note>
     <section>
         <title>Introduction</title>
-        <note><remark></remark></note>
-        <para>
-        </para>
+        <note>
+            <remark/>
+        </note>
+        <para>Textual scholars have at their disposal an increasing number of digital tools and
+            technologies to examine the genesis of a literary work. We can model or capture a wide
+            variety of (complex) textual phenomena, and our analysis of them, in a digital
+                transcription.<remark>Define "digital transcription": this ranges from plain text to
+                MS Word to TEI/XML. Suggestion: "A 'digital transcription' can be anuything from
+                plain text to MS Word and TEI/XML. Unless explicated otherwise, this paper uses the
+                term (digital) transcription to refer to a TEI/XML transcription."</remark> This
+            transcription can subsequently be processed by various tools for further analysis or
+            visualisation. Simply put, transcribing and processing text are forms of translation,
+            from one sign system to another. Making a transcription is generally understood to be a
+            critical act of editorial interepretation <xref linkend="robinson_1993"/><xref
+                linkend="pierazzo_2015"/>, and we can say the same about text processing: a tool
+            performs multiple operations on a text, each operation involving a transformation of the
+            data. It follows that before we can influence/customize a tool, it is necessary to
+            understand its workings and the transformations a text undergoes. This, in turn, can
+            lead to a more fitting/adequate/suitable framework to investigate/model a text.</para>
+        <para>An interesting area of study, and one that poses some particularly challengeing
+            issues, is the automated collation of modern manuscripts. This type of documents often
+            contains (heavy) revisions and complex sites of textual variation which are challengeing
+            to adequately capture and process in TEI/XML. In short, the genetic orientation to text
+            examines a text's development and the creative processes that propegate literary
+                invention<remark>[REF Shillingsburg and Van Hulle 2015]</remark>. As the genetic
+            orientation studies the processes of writing and revising, it is vital that revisions
+            are included in the collation process, so that researchers can study both the revision
+            within one document and the revision across document borders. The present paper
+            discusses how human interaction with collation algorithms benefits this kind of
+            research. This issue has been previously explored in <remark>[REF to paper ESTS
+                2016]</remark>, focusing on one characteristic of textual revisions - substitutions
+            - where the word order is of importance. The TEI/XML transcriptions of the modern
+            manuscripts of Samuel Beckett and Raymond Brulez serve as case studies.</para>
+        <para>As  </para>
     </section>
     <section>
         <title>Ordered</title>
@@ -27,17 +77,32 @@
     </section>
     <section>
         <title>Hierarchy</title>
-        <para></para>
-   </section>
+        <para/>
+    </section>
     <section>
         <title>Unordered Hierarchy</title>
-        <para></para>
+        <para/>
     </section>
     <section>
-        <title>
-            Conclusion
-        </title>
-        <para></para>
+        <title>Conclusion</title>
+        <para/>
     </section>
-    
+    <bibliography>
+        <title>Bibliography</title>
+        <bibliomixed xml:id="robinson_1993" xreflabel="Robinson and Solopova 1993">Robinson, Peter,
+            and Elizabeth Solopova. <quote>Guidelines for the Transcription of Manuscripts of The
+                Wife of Bath's Prologue</quote>. <emphasis role="ital">The Canterbury Tales Project
+                Occasional Papers</emphasis>, vol. 1 (1993): 19-52. Oxford: Office for Humanities
+            Communication, Oxford University Computing Services.</bibliomixed>
+        <bibliomixed xml:id="pierazzo_2015" xreflabel="Pierazzo 2015">Pierazo, Elena. <emphasis
+                role="ital">Digital Scholarly Editing: Theories, Models and Methods</emphasis>.
+            (2015) Surrey: Ashgate, Ltd.</bibliomixed>
+        <!--<bibliomixed xml:id="derose_1990" xreflabel="DeRose et al. 1990">DeRose, Steven J., David G.
+            Durand, Elli Mylonas, and Allen H. Renear. <quote>What is text, really?</quote>,
+                <emphasis role="ital">Journal of computing in higher education</emphasis>, 1.2
+            (1990): 3–26. doi:10.1007/BF02941632.</bibliomixed>-->
+    </bibliography>
+
+    <!--<bibliography><bibliolist></bibliolist></bibliography>
+-->
 </article>
