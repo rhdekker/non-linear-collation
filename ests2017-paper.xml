@@ -34,7 +34,7 @@
             technologies to examine the genesis of a literary work. We can model or capture a wide
             variety of (complex) textual phenomena, and our analysis of them, in a digital
                 transcription.<remark>Define "digital transcription": this ranges from plain text to
-                MS Word to TEI/XML. Suggestion: "A 'digital transcription' can be anuything from
+                MS Word to TEI/XML. Suggestion: "A 'digital transcription' can be anything from
                 plain text to MS Word and TEI/XML. Unless explicated otherwise, this paper uses the
                 term (digital) transcription to refer to a TEI/XML transcription."</remark> This
             transcription can subsequently be processed by various tools for further analysis or
@@ -64,6 +64,19 @@
     </section>
     <section>
         <title>Ordered</title>
+        <para>When a manuscript or typoscripts contains additions and deletions these can be
+            regarded/viewed as multiple orders through a text. Given two transcriptions, one for
+            each witness, to goal is to find the order through both witnesses with largest
+            comminality between them. Since there is no formal way in the XML spec to designate
+            multiple orders through text, we need to use a specific schema. To know where the
+            multiple orders in the text occur special/designated tags need to be placed. There are
+            several steps in the collation pipeline that need be adjusted to make the collation tool
+            aware of the multiple orders. During the tokenization phase/step all the tags involved
+            in order need to be placed as metadata on the word tokens. This means that subst/del/add
+            tags will not be collated as separate tokens. It is not usefull to know that one
+            transcription has a subst tag and the other does not for example, it is only useful to
+            find the order through the witnesses that best fits the content.  </para>
+        <para/>
         <para>Example 1.1:</para>
         <para>Transcription witness A: Helaas, Hij, Shiriar,</para>
         <para>Smart tokenizer:</para>
@@ -82,6 +95,7 @@
     <section>
         <title>Unordered Hierarchy</title>
         <para/>
+        <remark>Ik herinnner me niet meer wat we bedoelden met unordered hierarchy. </remark>
     </section>
     <section>
         <title>Conclusion</title>
